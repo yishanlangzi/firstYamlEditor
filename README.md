@@ -1,4 +1,3 @@
-# firstYamlEditor
 # yaml-editor 
 yaml语法编辑器vue框架
 
