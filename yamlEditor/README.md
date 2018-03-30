@@ -8,7 +8,7 @@ yaml语法编辑器vue框架
 ``` bash
 
 # Clone project
-git clone https://github.com/PanJiaChen/vueAdmin-template.git
+git clone https://github.com/yishanlangzi/firstYamlEditor.git
 
 # Install dependencies
 npm install
