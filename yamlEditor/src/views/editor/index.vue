@@ -12,13 +12,14 @@
 
 <script>
 import customYamlMonaco from './customYamlMonaco/customYamlMonaco'
+import schema from './customYamlMonaco/schema'
 export default {
   data() {
     return {
-      code: ['firstName: Bob',
-        'lastName: sdhu',
-        'age: 10'
-      ].join('\n')
+      // code: [
+      //   "specVersion: 1.0"
+      // ].join("\n")
+      code: schema
     }
   },
 
@@ -32,7 +33,6 @@ export default {
   created() {},
   methods: {}
 }
-
 </script>
 <style lang='scss' scoped>
 .editor {
